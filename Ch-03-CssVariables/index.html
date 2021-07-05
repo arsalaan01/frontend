@@ -26,8 +26,22 @@
       <input type="color" name="base" value="#ffc600" />
     </div>
 
-    <img src="http://unsplash.it/800/500?image=899" alt="" />
+    <img
+      src="https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+      alt=""
+    />
 
-    <style></style>
+    <style>
+      :root {
+        --base: #ffc600;
+        --spacing: 10px;
+        --blur: 10px;
+      }
+
+      img {
+        padding: var(--spacing);
+        background: var(--base);
+      }
+    </style>
   </body>
 </html>
